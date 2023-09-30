@@ -38,9 +38,15 @@ p {
 }
 
 img {
-    width: 250px;
+    width: 90%;
     border-radius: 10px;
     align-items: center;
     margin: 15px;
     
+}
+
+@media screen and (max-width:375px) {
+    div#container {
+        width: 90vw;
+    }
 }
